@@ -1,0 +1,23 @@
+{
+  "name": "projectmanager",
+  "version": "0.0.1",
+  "description": "Project manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee -w app.coffee"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "coffee-script": "latest",
+    "express": "4.x",
+    "path": "^0.12.7",
+    "hbs": "*"
+  },
+  "engines": {
+    "node": "7.7.4",
+    "npm": "4.1.2"
+  },
+  "author": "Alex Zinin",
+  "license": "ISC"
+}
